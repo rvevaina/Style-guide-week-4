@@ -1,0 +1,118 @@
+@font-face
+{
+font-family: MuseoSans;
+src: url(MuseoSans_500-webfont.ttf);
+font-weight: normal;
+}
+
+@font-face
+{
+font-family:Helvetica-neue;	
+src: url(helvetica-neue-regular-1361522098-webfont.ttf)
+}
+
+body {
+	font-family: MuseoSans, Georgia, sans-serif;
+}
+
+p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 600
+		
+}
+
+li {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700
+
+		
+}
+
+
+
+
+.section-title {
+			border-bottom: solid 1px #dedede;
+			padding-bottom: 0.5em;
+			margin-top: 2em;
+		}
+
+		.label {
+			font-size: 14px;	
+			margin: 0.5em 0 2em;
+		}
+
+		.container {
+			width: 90%;
+			max-width: 1000px;
+			margin: 0 auto;
+			overflow: hidden;
+		}
+
+		img.lobby   {
+			height:600px;
+			width:980px;
+		}
+
+		img.couple   {
+			height:250px;
+			width:250px;
+			border-radius: 75%;
+			border: 2px solid black;
+		}
+
+		.colours {
+			padding-left: 0;
+			list-style: none;
+		}
+
+		.colours li {
+			float: left;
+			width: 20%;
+			text-align: center;
+		}
+
+		.colours .swatch {
+			display: inline-block;
+			width: 70%;
+			height: 0;
+			padding-top: 70%;
+			border-radius: 50%
+		}
+
+		.typography {
+			max-width: 500px;
+		}
+
+		
+
+		.button-big, .button-small, .button-inverse {
+		   	display: block;
+			background:  #9DC43C;
+			text-decoration: none;
+	 		color: white;
+			box-shadow: 2px 2px 4px 3px #ccc;
+			border-radius: 10px; 		
+			text-align: center;
+			margin-bottom: 30px;
+		}
+		
+		.button-big, .button-inverse {
+			height:30px;
+			width: 250px;
+			padding:20px 15px 15px 15px;
+			font-size: 22px;
+
+		}
+		.button-small { 
+
+			height:20px;
+			width: 150px;
+			padding:17px 10px 10px 10px;
+			font-size: 14px;
+		}
+		.button-inverse {
+			background: #8bb0ff;
+			font-size: 14px;
+			padding: 20px 15px 5px 15px;
+		}
